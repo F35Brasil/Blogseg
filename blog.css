@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.blog-header h1 {
+    font-size: 2.5em;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.blog-header h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.blog-header p {
+    font-size: 1.1em;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.header-image,
+.article-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-image img,
+.article-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.blog-post {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #eee;
+}
+
+.blog-post:last-of-type {
+    border-bottom: none;
+}
+
+.blog-post h2 {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.blog-post p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px 20px;
+    }
+
+    .blog-header h1 {
+        font-size: 2em;
+    }
+
+    .blog-header h2 {
+        font-size: 1.2em;
+    }
+
+    .blog-post h2 {
+        font-size: 1.7em;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 10px 15px;
+    }
+
+    .blog-header h1 {
+        font-size: 1.8em;
+    }
+
+    .blog-header h2 {
+        font-size: 1em;
+    }
+
+    .blog-post h2 {
+        font-size: 1.5em;
+    }
+}
