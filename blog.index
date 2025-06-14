@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida de SST</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <main class="container">
+        <header class="blog-header">
+            <h1>Blog pessoal sobre Segurança do Trabalho</h1>
+            <h2>Dia a dia de um Técnico de Segurança do Trabalho</h2>
+            <p>Dentre os muitos desafios para um Técnico de Segurança esta o fator comportamental e o cumprimento da legislação trabalhista.</p>
+            <div class="header-image">
+                <img src="imagens/Tecnico.jpg" alt="Técnico de Segurança do Trabalho" width="300" height="300">
+            </div>
+        </header>
+
+        <article class="blog-post">
+            <h2>Acidente de trabalho e suas implicações</h2>
+            <p>A ocorrência de acidentes de trabalho impacta drasticamente as atividades no ambiente de trabalho, pois tornam o ambiente inseguro e mancham a imagem das empresas. Por esse motivo, é primordial respeitar a segurança no trabalho.</p>
+            <div class="article-image">
+                <img src="imagens/acidente.jpg" alt="Acidente de trabalho" width="300" height="300">
+            </div>
+        </article>
+
+        <article class="blog-post">
+            <h2>Segurança no trabalho - Vídeo Explicativo</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </article>
+    </main>
+
+    <script src="blog.js"></script>
+</body>
+</html>
